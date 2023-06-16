@@ -1,0 +1,31 @@
+﻿<Window x:Class="Wpf_Lsn1_ButtonsCalculator.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Lsn1_ButtonsCalculator"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="908" Closed="Window_Closed">
+    <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Right" Background="Aquamarine" Content="30% сторона" Width="246" />
+    <WrapPanel ItemHeight="30" ItemWidth="80" Orientation="Horizontal" Height="434" VerticalAlignment="Top" >
+        <Button Background="Navy" Content="Navy" Margin="2"/>
+        <Button Background="Blue" Content="Blue" Margin="2"/>
+        <Button Background="Aqua" Content="Aqua" Margin="2"/>
+            <Button Background="Olive" Content="Olive" Margin="2"/>
+            <Button Background="Green" Content="Green" Margin="2"/>
+            <Button Background="Lime" Content="Lime" Margin="2"/>
+            <Button Background="Yellow" Content="Yellow" Margin="2"/>
+            <Button Background="Green" Content="Green" Margin="2"/>
+            <Button Background="Orange" Content="Orange" Margin="2"/>
+            <Button Background="Red" Content="Red" Margin="2"/>
+            <Button Background="Maroon" Content="Maroon" Margin="2"/>
+            <Button Background="Fuchsia" Content="Fuchsia" Margin="2"/>
+            <Button Background="Purple" Content="Purple" Margin="2"/>
+            <Button Background="Black" Content="Black" Margin="2"/>
+            <Button Background="Silver" Content="Silver" Margin="2"/>
+            <Button Background="Gray" Content="Gray" Margin="2"/>
+            <Button Background="White" Content="White" Margin="2"/>
+    </WrapPanel>
+    </DockPanel>
+</Window>
